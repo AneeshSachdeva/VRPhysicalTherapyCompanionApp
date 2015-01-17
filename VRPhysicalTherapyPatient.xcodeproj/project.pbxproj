@@ -8,11 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		A50673181A6A99BB0083F598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50673171A6A99BB0083F598 /* AppDelegate.swift */; };
-		A506731A1A6A99BB0083F598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50673191A6A99BB0083F598 /* ViewController.swift */; };
-		A506731D1A6A99BB0083F598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A506731B1A6A99BB0083F598 /* Main.storyboard */; };
 		A506731F1A6A99BB0083F598 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A506731E1A6A99BB0083F598 /* Images.xcassets */; };
 		A50673221A6A99BB0083F598 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A50673201A6A99BB0083F598 /* LaunchScreen.xib */; };
 		A506732E1A6A99BB0083F598 /* VRPhysicalTherapyPatientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A506732D1A6A99BB0083F598 /* VRPhysicalTherapyPatientTests.swift */; };
+		A50673421A6A9A560083F598 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673401A6A9A560083F598 /* Bolts.framework */; };
+		A50673431A6A9A560083F598 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673411A6A9A560083F598 /* Parse.framework */; };
+		A50673451A6A9ADF0083F598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50673441A6A9ADF0083F598 /* Main.storyboard */; };
+		A506734A1A6A9C7F0083F598 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = A50673461A6A9C7F0083F598 /* Keys.plist */; };
+		A506734B1A6A9C7F0083F598 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50673471A6A9C7F0083F598 /* LoginViewController.swift */; };
+		A506734C1A6A9C7F0083F598 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50673491A6A9C7F0083F598 /* SignUpViewController.swift */; };
+		A50673521A6A9E470083F598 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673511A6A9E470083F598 /* AudioToolbox.framework */; };
+		A50673541A6A9E500083F598 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673531A6A9E500083F598 /* CFNetwork.framework */; };
+		A50673561A6A9E590083F598 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673551A6A9E590083F598 /* CoreGraphics.framework */; };
+		A50673581A6A9E610083F598 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673571A6A9E610083F598 /* CoreLocation.framework */; };
+		A506735A1A6A9E6A0083F598 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673591A6A9E6A0083F598 /* MobileCoreServices.framework */; };
+		A506735C1A6A9E720083F598 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A506735B1A6A9E720083F598 /* QuartzCore.framework */; };
+		A506735E1A6A9E790083F598 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A506735D1A6A9E790083F598 /* Security.framework */; };
+		A50673601A6A9E810083F598 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A506735F1A6A9E810083F598 /* StoreKit.framework */; };
+		A50673621A6A9E890083F598 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673611A6A9E890083F598 /* SystemConfiguration.framework */; };
+		A50673641A6A9E910083F598 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673631A6A9E910083F598 /* libz.dylib */; };
+		A50673661A6A9E9B0083F598 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673651A6A9E9B0083F598 /* libsqlite3.dylib */; };
+		A50673691A6A9F9F0083F598 /* ValidVRDomains.txt in Resources */ = {isa = PBXBuildFile; fileRef = A50673681A6A9F9F0083F598 /* ValidVRDomains.txt */; };
+		A506736B1A6AA42D0083F598 /* PatientTherapyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A506736A1A6AA42D0083F598 /* PatientTherapyTableViewController.swift */; };
+		A506736D1A6AA5570083F598 /* PatientTherapySession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A506736C1A6AA5570083F598 /* PatientTherapySession.swift */; };
+		A506736F1A6AA5A10083F598 /* PatientFrisbeeSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A506736E1A6AA5A10083F598 /* PatientFrisbeeSession.swift */; };
+		A50673711A6AB2BD0083F598 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50673701A6AB2BD0083F598 /* Globals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +49,34 @@
 		A50673121A6A99BB0083F598 /* VRPhysicalTherapyPatient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRPhysicalTherapyPatient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A50673161A6A99BB0083F598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A50673171A6A99BB0083F598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A50673191A6A99BB0083F598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A506731C1A6A99BB0083F598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A506731E1A6A99BB0083F598 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A50673211A6A99BB0083F598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A50673271A6A99BB0083F598 /* VRPhysicalTherapyPatientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRPhysicalTherapyPatientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A506732C1A6A99BB0083F598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A506732D1A6A99BB0083F598 /* VRPhysicalTherapyPatientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRPhysicalTherapyPatientTests.swift; sourceTree = "<group>"; };
+		A50673401A6A9A560083F598 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = VRPhysicalTherapyPatient/Bolts.framework; sourceTree = "<group>"; };
+		A50673411A6A9A560083F598 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = VRPhysicalTherapyPatient/Parse.framework; sourceTree = "<group>"; };
+		A50673441A6A9ADF0083F598 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A50673461A6A9C7F0083F598 /* Keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
+		A50673471A6A9C7F0083F598 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A50673491A6A9C7F0083F598 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A506734E1A6A9DDF0083F598 /* VRPhysicalTherapyPatient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VRPhysicalTherapyPatient-Bridging-Header.h"; sourceTree = "<group>"; };
+		A50673511A6A9E470083F598 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A50673531A6A9E500083F598 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A50673551A6A9E590083F598 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A50673571A6A9E610083F598 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A50673591A6A9E6A0083F598 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A506735B1A6A9E720083F598 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A506735D1A6A9E790083F598 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A506735F1A6A9E810083F598 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A50673611A6A9E890083F598 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A50673631A6A9E910083F598 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A50673651A6A9E9B0083F598 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		A50673681A6A9F9F0083F598 /* ValidVRDomains.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ValidVRDomains.txt; sourceTree = "<group>"; };
+		A506736A1A6AA42D0083F598 /* PatientTherapyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientTherapyTableViewController.swift; sourceTree = "<group>"; };
+		A506736C1A6AA5570083F598 /* PatientTherapySession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientTherapySession.swift; sourceTree = "<group>"; };
+		A506736E1A6AA5A10083F598 /* PatientFrisbeeSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientFrisbeeSession.swift; sourceTree = "<group>"; };
+		A50673701A6AB2BD0083F598 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +84,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A50673661A6A9E9B0083F598 /* libsqlite3.dylib in Frameworks */,
+				A50673641A6A9E910083F598 /* libz.dylib in Frameworks */,
+				A50673621A6A9E890083F598 /* SystemConfiguration.framework in Frameworks */,
+				A50673601A6A9E810083F598 /* StoreKit.framework in Frameworks */,
+				A506735E1A6A9E790083F598 /* Security.framework in Frameworks */,
+				A506735C1A6A9E720083F598 /* QuartzCore.framework in Frameworks */,
+				A506735A1A6A9E6A0083F598 /* MobileCoreServices.framework in Frameworks */,
+				A50673581A6A9E610083F598 /* CoreLocation.framework in Frameworks */,
+				A50673561A6A9E590083F598 /* CoreGraphics.framework in Frameworks */,
+				A50673541A6A9E500083F598 /* CFNetwork.framework in Frameworks */,
+				A50673521A6A9E470083F598 /* AudioToolbox.framework in Frameworks */,
+				A50673431A6A9A560083F598 /* Parse.framework in Frameworks */,
+				A50673421A6A9A560083F598 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +113,8 @@
 		A50673091A6A99BB0083F598 = {
 			isa = PBXGroup;
 			children = (
+				A50673681A6A9F9F0083F598 /* ValidVRDomains.txt */,
+				A50673671A6A9ECC0083F598 /* Frameworks */,
 				A50673141A6A99BB0083F598 /* VRPhysicalTherapyPatient */,
 				A506732A1A6A99BB0083F598 /* VRPhysicalTherapyPatientTests */,
 				A50673131A6A99BB0083F598 /* Products */,
@@ -78,11 +134,17 @@
 			isa = PBXGroup;
 			children = (
 				A50673171A6A99BB0083F598 /* AppDelegate.swift */,
-				A50673191A6A99BB0083F598 /* ViewController.swift */,
-				A506731B1A6A99BB0083F598 /* Main.storyboard */,
+				A50673471A6A9C7F0083F598 /* LoginViewController.swift */,
+				A50673491A6A9C7F0083F598 /* SignUpViewController.swift */,
+				A506736A1A6AA42D0083F598 /* PatientTherapyTableViewController.swift */,
+				A50673441A6A9ADF0083F598 /* Main.storyboard */,
 				A506731E1A6A99BB0083F598 /* Images.xcassets */,
 				A50673201A6A99BB0083F598 /* LaunchScreen.xib */,
 				A50673151A6A99BB0083F598 /* Supporting Files */,
+				A506734E1A6A9DDF0083F598 /* VRPhysicalTherapyPatient-Bridging-Header.h */,
+				A506736C1A6AA5570083F598 /* PatientTherapySession.swift */,
+				A506736E1A6AA5A10083F598 /* PatientFrisbeeSession.swift */,
+				A50673701A6AB2BD0083F598 /* Globals.swift */,
 			);
 			path = VRPhysicalTherapyPatient;
 			sourceTree = "<group>";
@@ -90,6 +152,7 @@
 		A50673151A6A99BB0083F598 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A50673461A6A9C7F0083F598 /* Keys.plist */,
 				A50673161A6A99BB0083F598 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +173,26 @@
 				A506732C1A6A99BB0083F598 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A50673671A6A9ECC0083F598 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A50673651A6A9E9B0083F598 /* libsqlite3.dylib */,
+				A50673631A6A9E910083F598 /* libz.dylib */,
+				A50673401A6A9A560083F598 /* Bolts.framework */,
+				A50673411A6A9A560083F598 /* Parse.framework */,
+				A50673611A6A9E890083F598 /* SystemConfiguration.framework */,
+				A506735F1A6A9E810083F598 /* StoreKit.framework */,
+				A506735D1A6A9E790083F598 /* Security.framework */,
+				A506735B1A6A9E720083F598 /* QuartzCore.framework */,
+				A50673591A6A9E6A0083F598 /* MobileCoreServices.framework */,
+				A50673571A6A9E610083F598 /* CoreLocation.framework */,
+				A50673551A6A9E590083F598 /* CoreGraphics.framework */,
+				A50673531A6A9E500083F598 /* CFNetwork.framework */,
+				A50673511A6A9E470083F598 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +275,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A506731D1A6A99BB0083F598 /* Main.storyboard in Resources */,
+				A506734A1A6A9C7F0083F598 /* Keys.plist in Resources */,
+				A50673451A6A9ADF0083F598 /* Main.storyboard in Resources */,
 				A50673221A6A99BB0083F598 /* LaunchScreen.xib in Resources */,
 				A506731F1A6A99BB0083F598 /* Images.xcassets in Resources */,
+				A50673691A6A9F9F0083F598 /* ValidVRDomains.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +297,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A506731A1A6A99BB0083F598 /* ViewController.swift in Sources */,
+				A506734B1A6A9C7F0083F598 /* LoginViewController.swift in Sources */,
+				A506736D1A6AA5570083F598 /* PatientTherapySession.swift in Sources */,
+				A506734C1A6A9C7F0083F598 /* SignUpViewController.swift in Sources */,
+				A506736F1A6AA5A10083F598 /* PatientFrisbeeSession.swift in Sources */,
 				A50673181A6A99BB0083F598 /* AppDelegate.swift in Sources */,
+				A50673711A6AB2BD0083F598 /* Globals.swift in Sources */,
+				A506736B1A6AA42D0083F598 /* PatientTherapyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +326,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A506731B1A6A99BB0083F598 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A506731C1A6A99BB0083F598 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A50673201A6A99BB0083F598 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -336,9 +418,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VRPhysicalTherapyPatient",
+				);
 				INFOPLIST_FILE = VRPhysicalTherapyPatient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VRPhysicalTherapyPatient/VRPhysicalTherapyPatient-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +435,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VRPhysicalTherapyPatient",
+				);
 				INFOPLIST_FILE = VRPhysicalTherapyPatient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VRPhysicalTherapyPatient/VRPhysicalTherapyPatient-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +500,7 @@
 				A50673331A6A99BB0083F598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A50673341A6A99BB0083F598 /* Build configuration list for PBXNativeTarget "VRPhysicalTherapyPatientTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +509,7 @@
 				A50673361A6A99BB0083F598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

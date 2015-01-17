@@ -35,7 +35,7 @@ class PatientFrisbeeSession : PatientTherapySession
         if PFUser.currentUser() != nil
         {
             // Add the read permissions for security.
-            patientFrisbeeSession.ACL = PFACL(user: PFUser.currentUser())
+            //patientFrisbeeSession.ACL = PFACL(user: PFUser.currentUser())
             patientFrisbeeSession.saveInBackgroundWithBlock {
                 (success: Bool!, error: NSError!) -> Void in
                 if (success != nil) {

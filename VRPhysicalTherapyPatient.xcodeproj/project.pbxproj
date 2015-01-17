@@ -137,14 +137,14 @@
 				A50673471A6A9C7F0083F598 /* LoginViewController.swift */,
 				A50673491A6A9C7F0083F598 /* SignUpViewController.swift */,
 				A506736A1A6AA42D0083F598 /* PatientTherapyTableViewController.swift */,
+				A506736C1A6AA5570083F598 /* PatientTherapySession.swift */,
+				A506736E1A6AA5A10083F598 /* PatientFrisbeeSession.swift */,
+				A50673701A6AB2BD0083F598 /* Globals.swift */,
 				A50673441A6A9ADF0083F598 /* Main.storyboard */,
 				A506731E1A6A99BB0083F598 /* Images.xcassets */,
 				A50673201A6A99BB0083F598 /* LaunchScreen.xib */,
 				A50673151A6A99BB0083F598 /* Supporting Files */,
 				A506734E1A6A9DDF0083F598 /* VRPhysicalTherapyPatient-Bridging-Header.h */,
-				A506736C1A6AA5570083F598 /* PatientTherapySession.swift */,
-				A506736E1A6AA5A10083F598 /* PatientFrisbeeSession.swift */,
-				A50673701A6AB2BD0083F598 /* Globals.swift */,
 			);
 			path = VRPhysicalTherapyPatient;
 			sourceTree = "<group>";

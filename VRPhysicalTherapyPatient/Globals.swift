@@ -16,12 +16,23 @@ struct Globals
     
     static func saveTherapySessions()
     {
-//        var parseTherapyRecords = PFObject(className: "TotalSessions")
-//        parseTherapyRecords["patient"] = PFUser.currentUser().username
-//        parseTherapyRecords["sessionIDs"] = THERAPY_SESSIONS
-//        
-//        parseTherapyRecords.saveInBackground()
-        var currentParseSessions = PFUser.currentUser()
-        PFUser.currentUser()["sessionIDs"] = THERAPY_SESSIONS
+        // Here we append the new sessions to the current sessions, then save all the sessions to parse (new and old).
+        if PFUser.currentUser() != nil
+        {
+            var currentParseSessions : [String] = PFUser.currentUser()["sessionIDs"] as [String]
+            
+            // Merge arrays.
+            for objectId in THERAPY_SESSIONS
+            {
+                currentParseSessions.append(objectId)
+            }
+            
+            PFUser.currentUser()["sessionIDs"] = currentParseSessions
+            //println(THERAPY_SESSIONS.count)
+        }
+        else
+        {
+            println("PFUser current user is nil")
+        }
     }
 }

@@ -51,7 +51,5 @@ class PatientFrisbeeSession : PatientTherapySession
             }
             
         }
-        
-        
     }
 }

@@ -32,9 +32,9 @@
 		A506736D1A6AA5570083F598 /* PatientTherapySession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A506736C1A6AA5570083F598 /* PatientTherapySession.swift */; };
 		A506736F1A6AA5A10083F598 /* PatientFrisbeeSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A506736E1A6AA5A10083F598 /* PatientFrisbeeSession.swift */; };
 		A50673711A6AB2BD0083F598 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50673701A6AB2BD0083F598 /* Globals.swift */; };
-		A58B46C51A6BB08A00303CA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58B46C21A6BB08A00303CA2 /* Main.storyboard */; };
 		A58B46C71A6BB08A00303CA2 /* FrisbeeGraphWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58B46C41A6BB08A00303CA2 /* FrisbeeGraphWebViewController.swift */; };
 		A5C876061A6BD6C500CB9087 /* TherapyListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C876051A6BD6C500CB9087 /* TherapyListTableViewController.swift */; };
+		A5C8760A1A6C192500CB9087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C876091A6C192500CB9087 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,9 +78,9 @@
 		A506736C1A6AA5570083F598 /* PatientTherapySession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientTherapySession.swift; sourceTree = "<group>"; };
 		A506736E1A6AA5A10083F598 /* PatientFrisbeeSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientFrisbeeSession.swift; sourceTree = "<group>"; };
 		A50673701A6AB2BD0083F598 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
-		A58B46C21A6BB08A00303CA2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../VRPhysicalTherapyDoctor/VRPhysicalTherapyDoctor/Main.storyboard; sourceTree = "<group>"; };
 		A58B46C41A6BB08A00303CA2 /* FrisbeeGraphWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FrisbeeGraphWebViewController.swift; path = ../../VRPhysicalTherapyDoctor/VRPhysicalTherapyDoctor/FrisbeeGraphWebViewController.swift; sourceTree = "<group>"; };
 		A5C876051A6BD6C500CB9087 /* TherapyListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TherapyListTableViewController.swift; sourceTree = "<group>"; };
+		A5C876091A6C192500CB9087 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +137,7 @@
 		A50673141A6A99BB0083F598 /* VRPhysicalTherapyPatient */ = {
 			isa = PBXGroup;
 			children = (
-				A58B46C21A6BB08A00303CA2 /* Main.storyboard */,
+				A5C876091A6C192500CB9087 /* Main.storyboard */,
 				A5C876051A6BD6C500CB9087 /* TherapyListTableViewController.swift */,
 				A58B46C41A6BB08A00303CA2 /* FrisbeeGraphWebViewController.swift */,
 				A50673171A6A99BB0083F598 /* AppDelegate.swift */,
@@ -282,7 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A506734A1A6A9C7F0083F598 /* Keys.plist in Resources */,
-				A58B46C51A6BB08A00303CA2 /* Main.storyboard in Resources */,
+				A5C8760A1A6C192500CB9087 /* Main.storyboard in Resources */,
 				A50673221A6A99BB0083F598 /* LaunchScreen.xib in Resources */,
 				A506731F1A6A99BB0083F598 /* Images.xcassets in Resources */,
 				A50673691A6A9F9F0083F598 /* ValidVRDomains.txt in Resources */,

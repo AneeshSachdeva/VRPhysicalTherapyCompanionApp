@@ -50,7 +50,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate
                 {
                     self.loginStatusLabel.text = "Success!"
                     
-                    var session = PatientFrisbeeSession(startDate: NSDate(), endDate: NSDate(), frisbeesSwatted: 12, maxFrisbeeSpeed: 11.0)
+                    var session = PatientFrisbeeSession(startDate: NSDate(), endDate: NSDate(), frisbeesSwatted: Int(arc4random_uniform(69)), maxFrisbeeSpeed: 69.0)
                     
                     session.saveToParse()
                 }

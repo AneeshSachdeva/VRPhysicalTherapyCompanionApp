@@ -20,15 +20,22 @@ struct Globals
         if PFUser.currentUser() != nil
         {
             var currentParseSessions : [String] = PFUser.currentUser()["sessionIDs"] as [String]
-            
-            // Merge arrays.
-            for objectId in THERAPY_SESSIONS
+            println(currentParseSessions.count)
+            if (currentParseSessions.count == 0)
             {
-                currentParseSessions.append(objectId)
+                // Merge arrays.
+                for objectId in THERAPY_SESSIONS
+                {
+                    currentParseSessions.append(objectId)
+                }
+            }
+            else
+            {
+                currentParseSessions = THERAPY_SESSIONS
             }
             
             PFUser.currentUser()["sessionIDs"] = currentParseSessions
-            //println(THERAPY_SESSIONS.count)
+            println(THERAPY_SESSIONS.count)
         }
         else
         {

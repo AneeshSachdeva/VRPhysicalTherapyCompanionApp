@@ -13,7 +13,6 @@
 		A506732E1A6A99BB0083F598 /* VRPhysicalTherapyPatientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A506732D1A6A99BB0083F598 /* VRPhysicalTherapyPatientTests.swift */; };
 		A50673421A6A9A560083F598 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673401A6A9A560083F598 /* Bolts.framework */; };
 		A50673431A6A9A560083F598 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673411A6A9A560083F598 /* Parse.framework */; };
-		A50673451A6A9ADF0083F598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50673441A6A9ADF0083F598 /* Main.storyboard */; };
 		A506734A1A6A9C7F0083F598 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = A50673461A6A9C7F0083F598 /* Keys.plist */; };
 		A506734B1A6A9C7F0083F598 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50673471A6A9C7F0083F598 /* LoginViewController.swift */; };
 		A506734C1A6A9C7F0083F598 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50673491A6A9C7F0083F598 /* SignUpViewController.swift */; };
@@ -33,6 +32,9 @@
 		A506736D1A6AA5570083F598 /* PatientTherapySession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A506736C1A6AA5570083F598 /* PatientTherapySession.swift */; };
 		A506736F1A6AA5A10083F598 /* PatientFrisbeeSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A506736E1A6AA5A10083F598 /* PatientFrisbeeSession.swift */; };
 		A50673711A6AB2BD0083F598 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50673701A6AB2BD0083F598 /* Globals.swift */; };
+		A58B46C51A6BB08A00303CA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58B46C21A6BB08A00303CA2 /* Main.storyboard */; };
+		A58B46C71A6BB08A00303CA2 /* FrisbeeGraphWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58B46C41A6BB08A00303CA2 /* FrisbeeGraphWebViewController.swift */; };
+		A5C876061A6BD6C500CB9087 /* TherapyListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C876051A6BD6C500CB9087 /* TherapyListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +58,6 @@
 		A506732D1A6A99BB0083F598 /* VRPhysicalTherapyPatientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRPhysicalTherapyPatientTests.swift; sourceTree = "<group>"; };
 		A50673401A6A9A560083F598 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = VRPhysicalTherapyPatient/Bolts.framework; sourceTree = "<group>"; };
 		A50673411A6A9A560083F598 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = VRPhysicalTherapyPatient/Parse.framework; sourceTree = "<group>"; };
-		A50673441A6A9ADF0083F598 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A50673461A6A9C7F0083F598 /* Keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
 		A50673471A6A9C7F0083F598 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A50673491A6A9C7F0083F598 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +78,9 @@
 		A506736C1A6AA5570083F598 /* PatientTherapySession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientTherapySession.swift; sourceTree = "<group>"; };
 		A506736E1A6AA5A10083F598 /* PatientFrisbeeSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientFrisbeeSession.swift; sourceTree = "<group>"; };
 		A50673701A6AB2BD0083F598 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		A58B46C21A6BB08A00303CA2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../VRPhysicalTherapyDoctor/VRPhysicalTherapyDoctor/Main.storyboard; sourceTree = "<group>"; };
+		A58B46C41A6BB08A00303CA2 /* FrisbeeGraphWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FrisbeeGraphWebViewController.swift; path = ../../VRPhysicalTherapyDoctor/VRPhysicalTherapyDoctor/FrisbeeGraphWebViewController.swift; sourceTree = "<group>"; };
+		A5C876051A6BD6C500CB9087 /* TherapyListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TherapyListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,9 @@
 		A50673141A6A99BB0083F598 /* VRPhysicalTherapyPatient */ = {
 			isa = PBXGroup;
 			children = (
+				A58B46C21A6BB08A00303CA2 /* Main.storyboard */,
+				A5C876051A6BD6C500CB9087 /* TherapyListTableViewController.swift */,
+				A58B46C41A6BB08A00303CA2 /* FrisbeeGraphWebViewController.swift */,
 				A50673171A6A99BB0083F598 /* AppDelegate.swift */,
 				A50673471A6A9C7F0083F598 /* LoginViewController.swift */,
 				A50673491A6A9C7F0083F598 /* SignUpViewController.swift */,
@@ -140,7 +147,6 @@
 				A506736C1A6AA5570083F598 /* PatientTherapySession.swift */,
 				A506736E1A6AA5A10083F598 /* PatientFrisbeeSession.swift */,
 				A50673701A6AB2BD0083F598 /* Globals.swift */,
-				A50673441A6A9ADF0083F598 /* Main.storyboard */,
 				A506731E1A6A99BB0083F598 /* Images.xcassets */,
 				A50673201A6A99BB0083F598 /* LaunchScreen.xib */,
 				A50673151A6A99BB0083F598 /* Supporting Files */,
@@ -276,7 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A506734A1A6A9C7F0083F598 /* Keys.plist in Resources */,
-				A50673451A6A9ADF0083F598 /* Main.storyboard in Resources */,
+				A58B46C51A6BB08A00303CA2 /* Main.storyboard in Resources */,
 				A50673221A6A99BB0083F598 /* LaunchScreen.xib in Resources */,
 				A506731F1A6A99BB0083F598 /* Images.xcassets in Resources */,
 				A50673691A6A9F9F0083F598 /* ValidVRDomains.txt in Resources */,
@@ -298,10 +304,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A506734B1A6A9C7F0083F598 /* LoginViewController.swift in Sources */,
+				A58B46C71A6BB08A00303CA2 /* FrisbeeGraphWebViewController.swift in Sources */,
 				A506736D1A6AA5570083F598 /* PatientTherapySession.swift in Sources */,
 				A506734C1A6A9C7F0083F598 /* SignUpViewController.swift in Sources */,
 				A506736F1A6AA5A10083F598 /* PatientFrisbeeSession.swift in Sources */,
 				A50673181A6A99BB0083F598 /* AppDelegate.swift in Sources */,
+				A5C876061A6BD6C500CB9087 /* TherapyListTableViewController.swift in Sources */,
 				A50673711A6AB2BD0083F598 /* Globals.swift in Sources */,
 				A506736B1A6AA42D0083F598 /* PatientTherapyTableViewController.swift in Sources */,
 			);

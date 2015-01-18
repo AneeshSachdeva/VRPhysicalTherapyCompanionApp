@@ -13,12 +13,12 @@ class PatientFrisbeeSession : PatientTherapySession
     let frisbeesSwatted : Int
     let maxFrisbeeSpeed : Float
     
-    init(startDate: NSDate, endDate: NSDate, frisbeesSwatted: Int, maxFrisbeeSpeed: Float)
+    init(username: String, startDate: NSDate, endDate: NSDate, frisbeesSwatted: Int, maxFrisbeeSpeed: Float)
     {
         self.frisbeesSwatted = frisbeesSwatted
         self.maxFrisbeeSpeed = maxFrisbeeSpeed
         
-        super.init(startDate: startDate, endDate: endDate)
+        super.init(username: username, startDate: startDate, endDate: endDate)
     }
     
     /** Save the Frisbee Session to Parse and globally store the parse object ID. */
@@ -26,6 +26,7 @@ class PatientFrisbeeSession : PatientTherapySession
     {
         // The parse representation of the session.
         var patientFrisbeeSession = PFObject(className: "PatientFrisbeeSession")
+        patientFrisbeeSession["username"] = username
         patientFrisbeeSession["startDate"] = startDate
         patientFrisbeeSession["endDate"] = endDate
         patientFrisbeeSession["frisbeesSwatted"] = frisbeesSwatted
@@ -40,10 +41,11 @@ class PatientFrisbeeSession : PatientTherapySession
                 (success: Bool!, error: NSError!) -> Void in
                 if (success != nil) {
                     NSLog("Object created with id: \(patientFrisbeeSession.objectId)")
-                    
-                    Globals.THERAPY_SESSIONS.append(patientFrisbeeSession.objectId);
-                    Globals.saveTherapySessions()
-                    println("Therapy Sessions append and save attempted.")
+                
+//                    Globals.THERAPY_SESSIONS.append(patientFrisbeeSession.objectId);
+//                    println(Globals.THERAPY_SESSIONS.count) 
+//                    Globals.saveTherapySessions()
+//                    println("Therapy Sessions append and save attempted.")
                     
                 } else {
                     NSLog("%@", error)

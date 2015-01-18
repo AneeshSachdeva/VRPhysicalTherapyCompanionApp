@@ -10,11 +10,13 @@ import Foundation
 
 class PatientTherapySession
 {
+    let username : String
     let startDate : NSDate
     let endDate : NSDate
     
-    init(startDate: NSDate, endDate: NSDate)
+    init(username: String, startDate: NSDate, endDate: NSDate)
     {
+        self.username = username
         self.startDate = startDate
         self.endDate = endDate
     }

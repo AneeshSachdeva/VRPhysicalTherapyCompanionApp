@@ -46,22 +46,25 @@ class LoginViewController: UIViewController, UITextFieldDelegate
             if user != nil
             {
                 user.fetch()
-                if user.objectForKey("emailVerified") as Bool
+                if (user["type"] as String == "patient")
                 {
-                    self.loginStatusLabel.text = "Success!"
-                    
-                    var session = PatientFrisbeeSession(startDate: NSDate(), endDate: NSDate(), frisbeesSwatted: Int(arc4random_uniform(69)), maxFrisbeeSpeed: 69.0)
-                    
-                    session.saveToParse()
-                }
-                else if !(user.objectForKey("emailVerified") as Bool)
-                {
-                    self.loginStatusLabel.text = "Verify your email address!"
-                }
-                else // status is "missing"
-                {
-                    //TODO: Handle this error better
-                    self.loginStatusLabel.text = "Verification status: Missing"
+                    if user.objectForKey("emailVerified") as Bool
+                    {
+                        self.loginStatusLabel.text = "Success!"
+                        
+                        //var session = PatientFrisbeeSession(username: user["username"] as NSString, startDate: NSDate(), endDate: NSDate(), frisbeesSwatted: Int(arc4random_uniform(69)), maxFrisbeeSpeed: 69.0)
+                        
+                        //session.saveToParse()
+                    }
+                    else if !(user.objectForKey("emailVerified") as Bool)
+                    {
+                        self.loginStatusLabel.text = "Verify your email address!"
+                    }
+                    else // status is "missing"
+                    {
+                        //TODO: Handle this error better
+                        self.loginStatusLabel.text = "Verification status: Missing"
+                    }
                 }
 
             }
